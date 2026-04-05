@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIT 312 - The Five Course Meal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style></style>
+</head>
+<body>
+
+    <!-- 
+    
+        Justification for Stuff 
+     
+        col-md-6: this was used for medium (desktop/tablets) so that the recipe appears in two columns
+        col-12: used for mobile devices. realigns everything to be visually, in one column for easier reading
+        img-fluid: used to dynamically fit images within containers so they don't overflow
+
+        display-4: used for headings using bootstrap
+        text-center: used to align text in the center using bootstrap
+
+        d-none d-md-block: md and above shows header and hides h1
+        d-md-none: breakpoints below md hides header
+            -> These were used so that the heading wasn't so gigantic on smaller screens
+
+
+        Links:
+
+        https://getbootstrap.com/docs/4.0/content/images/
+        https://getbootstrap.com/docs/4.0/content/typography
+        https://getbootstrap.com/docs/4.0/utilities/display/
+        https://getbootstrap.com/docs/4.0/utilities/text/
+
+    -->
+
+    
+
+    <!-- Five Cour Meal Inspiration Source -->
+    <!-- https://recipewise.net/food-inspiration/impress-your-guests-with-these-5-course-meal-ideas/ -->
+
+    <div class="container" style="border: 2px solid;">
+        <header class="d-none d-md-block display-4 text-center">The Five Course Meal</header>
+        <h1 class="text-center d-md-none">The Five Course Meal</h1>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div>
+                    <h5>Appetizer</h3>
+                    <img src="https://therecipecritic.com/wp-content/uploads/2019/11/shrimp-cocktail-3.jpg" alt="Shrimp Cocktail Dish" class="img-fluid">
+                    <p>Start your meal off with Shrimp Cocktail</p>
+                    <h6>Recipe - Summarized</h6>
+                    <ol>Shrimp
+                        <li>Boil: 3 qt water + lemon + ½ onion + 2 bay leaves + sugar + salt</li>
+                        <li>Prep: Ice bath ready</li>
+                        <li>Cook: Shrimp in batches, 2-3 min until pink + floating</li>
+                        <li>Chill: Straight into ice bath, then drain + refrigerate</li>
+                    </ol>
+                    <ol>Sauce
+                        <li>Mix: Ketchup + lemon juice + lemon zest + horseradish + Tabasco + Worcestershire</li>
+                        <li>Chill until serving</li>
+                    </ol>
+                    <a href="https://therecipecritic.com/shrimp-cocktail/">Shrimp Cocktail Source</a>
+                </div>
+                <div>
+                    <h5>Soup</h3>
+                    <img src="https://th.bing.com/th/id/R.9489caf4d4a0eed04101a187cc4499de?rik=G8KfmFjoN%2bCBaQ&pid=ImgRaw&r=0" alt="Clam Chowder Soup" class="img-fluid">
+                    <p>Second Course is Clam Chowder Soup</p>
+                    <h6>Recipe - Summarized</h6>
+                    <ol>
+                        <li>Crisp bacon; keep 3 Tbsp drippings</li>
+                        <li>Sauté carrots, onion, celery; add flour</li>
+                        <li>Add broth, clam juice, seasonings; bring to light boil</li>
+                        <li>Add potatoes, milk, cream; simmer until tender</li>
+                        <li>Stir in clams; brief boil; remove from heat</li>
+                        <li>Top with bacon (and cilantro if desired)</li>
+                    </ol>
+                    <a href="https://natashaskitchen.com/clam-chowder-recipe-video/">Clam Chowder Source</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div>
+                    <h5>Fish</h3>
+                    <img src="https://www.cookingclassy.com/wp-content/uploads/2018/05/grilled-salmon-3-768x1138.jpg" alt="Grilled Salmon and Vegetables Dish" class="img-fluid">
+                    <p>Dive into your third course with this Grilled Salmon and Vegetables</p>
+                    <h6>Recipe - Summarized</h6>
+                    <ol>
+                        <li>Cut salmon into 6 portions; place skin-side down in a baking dish</li>
+                        <li>Whisk soy sauce, Dijon, garlic, and olive oil until emulsified</li>
+                        <li>Reserve 2 Tbsp marinade; spread the rest over salmon and rest 10 min</li>
+                        <li>Preheat grill to medium-high (about 400°F); clean and oil grates</li>
+                        <li>Grill salmon skin-side down ~4 min, flip, cook ~4 min more</li>
+                        <li>Remove skin, plate salmon, and brush with reserved marinade</li>
+                        <li>Garnish with parsley if desired</li>
+                    </ol>
+                    <a href="https://www.cookingclassy.com/5-ingredient-marinated-grilled-salmon/">Grilled Salmon and Vegetables Source</a>
+                </div>
+                <div>
+                    <h5>Meat</h3>
+                    <img src="https://www.foodandwine.com/thmb/2k2Kq24_fMvHCyLMPRSNrpg5QdE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/beef-wellington-FT-RECIPE0321-c9a63fccde3b45889ad78fdad078153f.jpg" alt="Beef Wellington Dish" class="img-fluid">
+                    <p>After Fish, feast on a classic Beef Wellington</p>
+                    <h6>Recipe - Summarized</h6>
+                    <ol>Beef
+                        <li>Tie tenderloin with kitchen twine every 2 inches; season with salt and pepper</li>
+                        <li>Let rest on a rack at room temp for 1 hour</li>
+                        <li>Sear in canola oil until browned on all sides (10-12 min)</li>
+                        <li>Cool 15 min; remove twine</li>
+                        <li>Brush with Dijon; coat with porcini powder</li>
+                        <li>Chill uncovered 1-3 hours</li>
+                    </ol>
+                    <ol>Duxelles
+                        <li>Pulse mushrooms + shallots in batches until very finely chopped</li>
+                        <li>Cook mixture in butter until dry and browning (25-30 min)</li>
+                        <li>Add garlic + thyme; cook 1 min</li>
+                        <li>Add sherry + pepper; cook until dry again (2-4 min)</li>
+                        <li>Spread on sheet pan and chill until cold</li>
+                    </ol>
+
+                    <ol>Assemble Wellington
+                        <li>Lay overlapping plastic wrap to form a large square</li>
+                        <li>Overlap phyllo sheets; top with prosciutto, leaving small side borders</li>
+                        <li>Spread duxelles evenly; sprinkle with chives + parsley</li>
+                        <li>Place chilled beef on bottom third; roll tightly using plastic wrap</li>
+                        <li>Chill log while preparing puff pastry</li>
+                    </ol>
+
+                    <ol>Wrap in Puff Pastry
+                        <li>Roll puff pastry to a 15x12-inch rectangle</li>
+                        <li>Brush top third lightly with beaten egg</li>
+                        <li>Unwrap beef log; place on bottom edge and roll to seal</li>
+                        <li>Seal seam and fold ends under</li>
+                        <li>Transfer seam-side down to parchment-lined sheet</li>
+                        <li>Brush with egg wash; lightly score decorative pattern</li>
+                        <li>Cut 3 small steam vents; sprinkle with flaky salt</li>
+                    </ol>
+
+                    <ol>Bake
+                        <li>Bake at 425°F until pastry is browned and beef reaches 120°F (40-45 min)</li>
+                        <li>Rest 15 min before slicing</li>
+                        <li>Serve with thyme branches</li>
+                    </ol>
+
+                    <a href="https://www.foodandwine.com/recipes/beef-wellington">Beef Wellington Source</a>
+                </div>
+                <div>
+                    <h5>Dessert</h3>
+                    <img src="https://www.littlesweetbaker.com/wp-content/uploads/2017/12/easy-creme-brulee-3.jpg" alt="Crème Brûlée Dessert Dish" class="img-fluid">
+                    <p>For Dessert, have yourself a lovely Crème Brûlée</p>
+                    <h6>Recipe - Summarized</h6>
+                    <ol>
+                        <li>Preheat oven to 300°F</li>
+                        <li>Beat egg yolks and sugar until pale and sugar is dissolved</li>
+                        <li>Add whipping cream and vanilla; mix on low until blended</li>
+                        <li>Strain mixture if desired; divide into 4 ramekins</li>
+                        <li>Place ramekins in a baking dish and add hot water halfway up the sides</li>
+                        <li>Bake 45-55 minutes until custard is set</li>
+                        <li>Remove from water bath; cool on rack, then chill at least 2 hours</li>
+                        <li>Before serving, sprinkle ~1½ tsp sugar on each custard</li>
+                        <li>Caramelize sugar with a torch or broil 4-5 minutes, watching closely</li>
+                    </ol>
+                    <a href="https://www.littlesweetbaker.com/easy-creme-brulee/">Crème Brûlée Source</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
